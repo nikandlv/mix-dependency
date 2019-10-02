@@ -8,6 +8,11 @@ Dynamically install npm packages in laravel applications if not installed
 
 const mixDependency = require('mix-dependency');
 
-mixDepenedency.require('awesome-npm-package');
+// Require one package
+mixDependency.require('awesome-npm-package');
+
+// Require Multiple packages
+mixDependency.requireAll(['awesome-npm-package', 'react']);
+
 
 ```

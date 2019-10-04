@@ -2,6 +2,11 @@
 
 Dynamically install npm packages in laravel applications if not installed
 
+## Install
+```console
+nikandlv@nikandlv.ir:~$ npm i -D mix-dependency
+```
+
 ## Usage
 
 ```javascript
